@@ -1,7 +1,7 @@
 class Bblog.Models.Post extends Backbone.Model
   paramRoot: 'post'
 
-  defaults:
+  # defaults:
 
 class Bblog.Collections.PostsCollection extends Backbone.Collection
   model: Bblog.Models.Post
